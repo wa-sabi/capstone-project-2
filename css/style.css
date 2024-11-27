@@ -1,0 +1,141 @@
+body {
+    margin: 10px 20px;
+    background-attachment: fixed;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #f8f8dd 0, #f8f8dd 1px, #f8f8dd 0, #dedcdb 50%);
+    background-color: #FF4E03;
+    /* For removing screen bounce effect:
+    overscroll-behavior: none; */
+    }
+
+h2 {
+    font-family: CabinetGrotesk-Medium, sans-serif;
+    font-size: 7rem;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Roboto Mono", monospace;
+}
+
+p {
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.7rem;
+    font-weight: 300;
+    font-style: normal;
+}
+
+small {
+    color: #FF4E03;
+    font-family: "Roboto Mono", monospace;
+    font-size: 0.5rem;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto 1fr;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 10fr 1fr 40px;
+    font-family: "Roboto Mono", monospace;
+    border-bottom: 1px dotted #FF4E03;
+}
+
+#logo {
+    place-self: center left;
+    font-family: CabinetGrotesk-Medium, sans-serif;
+    text-transform: uppercase;  
+    font-size: 0.40rem;
+    color: #FF4E03;
+}
+
+#in-touch {
+    align-self: center;
+    text-align: right;
+    color: #FF4E03;
+}
+
+#so-me {
+    place-self: center right;
+    margin-left: 5px;
+}
+
+.content {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 2%;
+}
+
+.hero {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.info {
+    grid-column: 2 / span 2;
+    padding-left: 2%;
+    padding-right: 10%;
+    text-align: justify;
+    align-self: center;
+}
+
+.digi-skills {
+    grid-column: 1;
+    justify-self: center;
+}
+
+.skills > h2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FF4E03;
+    text-align: center;
+}
+
+.projects {
+    grid-column: 1 / span 4;
+}
+
+#image1 {
+    justify-self: center; 
+}
+
+#image2 {
+    align-self: center;
+}
+
+#image3 {
+    justify-self: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    border-top: 1px dotted #FF4E03;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
